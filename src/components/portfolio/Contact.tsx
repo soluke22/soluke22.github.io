@@ -1,4 +1,4 @@
-import { Mail, Linkedin, Github, FileDown } from "lucide-react";
+import { Mail, Linkedin, Github } from "lucide-react";
 import { Section } from "./Section";
 
 const items = [
@@ -19,12 +19,6 @@ const items = [
     label: "GitHub",
     value: "github.com/soluke22",
     href: "https://github.com/soluke22",
-  },
-  {
-    icon: FileDown,
-    label: "Resume",
-    value: "Download (coming soon)",
-    href: "#",
   },
 ];
 
@@ -66,7 +60,7 @@ export function Contact() {
 
       <footer className="mt-16 border-t border-border/60 pt-8 text-xs text-muted-foreground">
         <div className="flex flex-wrap items-center justify-between gap-3">
-          <p>© {new Date().getFullYear()} Solomon Lucas-Thornton</p>
+          <p>Copyright {new Date().getFullYear()} Solomon Lucas-Thornton</p>
           <p className="font-mono">Built with React + TypeScript</p>
         </div>
       </footer>

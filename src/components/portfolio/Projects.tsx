@@ -196,18 +196,14 @@ export function Projects() {
       title="Selected work across production, interactive systems, and earlier builds."
       description="Production engineering leads. Game and case-study work shows range and systems thinking."
     >
-      <div
-        role="tablist"
-        aria-label="Project categories"
-        className="mb-10 flex flex-wrap gap-2"
-      >
+      <div aria-label="Project categories" className="mb-10 flex flex-wrap gap-2">
         {categories.map((c) => {
           const isActive = c === active;
           return (
             <button
+              type="button"
               key={c}
-              role="tab"
-              aria-selected={isActive}
+              aria-pressed={isActive}
               onClick={() => setActive(c)}
               className={`rounded-full border px-3.5 py-1.5 text-xs font-medium transition-colors ${
                 isActive
