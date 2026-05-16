@@ -71,6 +71,44 @@ const projects: Project[] = [
     ],
   },
   {
+    title: "Debts and Dragons",
+    category: "Game Development",
+    description:
+      "Ludum Dare project built by a team of 40+ developers, released through Indie Game Academy.",
+    tags: ["Unity", "C#", "Economy Systems", "Game Systems", "Ludum Dare"],
+    highlights: [
+      "Developed the economy systems for the project.",
+      "Collaborated in a 40+ developer Ludum Dare team environment.",
+      "Shipped publicly on itch.io.",
+    ],
+    links: [
+      {
+        label: "Play on Itch.io",
+        href: "https://indiegameacademy.itch.io/debts-and-dragons",
+        icon: "demo",
+      },
+    ],
+  },
+  {
+    title: "Child of Ruin",
+    category: "Game Development",
+    description:
+      "Ludum Dare project built by a team of 40+ developers and published on itch.io.",
+    tags: ["Unity", "C#", "Movement Systems", "Gameplay", "Ludum Dare"],
+    highlights: [
+      "Developed the movement mechanics.",
+      "Collaborated in a 40+ developer Ludum Dare team.",
+      "Shipped publicly on itch.io.",
+    ],
+    links: [
+      {
+        label: "Play on Itch.io",
+        href: "https://trensharo.itch.io/child-of-ruin",
+        icon: "demo",
+      },
+    ],
+  },
+  {
     title: "StartupHU",
     category: "Earlier Work",
     description:

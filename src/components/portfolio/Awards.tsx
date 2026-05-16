@@ -5,7 +5,7 @@ const items = [
   "Coupa Cares Award",
   "IGDA Foundation HBCU Scholar",
   "Best Senior Project Award",
-  "Senior Athlete of the Year",
+  "TEC Tech Prep Rising Innovator",
 ];
 
 export function Awards() {

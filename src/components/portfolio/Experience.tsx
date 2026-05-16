@@ -58,7 +58,7 @@ const roles: Role[] = [
 
 export function Experience() {
   return (
-    <Section id="experience" eyebrow="Experience" title="Where I've shipped.">
+    <Section id="experience" eyebrow="Experience" title="Where I've worked.">
       <ol className="relative space-y-10 border-l border-border pl-6 md:pl-8">
         {roles.map((r) => (
           <li key={`${r.company}-${r.period}`} className="relative">
