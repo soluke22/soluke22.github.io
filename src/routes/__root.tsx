@@ -78,7 +78,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         content:
           "Software engineer portfolio focused on React, TypeScript, frontend systems, and shipped production work.",
       },
-      { name: "author", content: "Solomon Lucas-Thornton" },
+      { name: "author", content: "Solomon Lucas" },
       { property: "og:title", content: "Solomon Lucas - Software Engineer" },
       {
         property: "og:description",
