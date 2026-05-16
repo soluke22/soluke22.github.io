@@ -1,4 +1,4 @@
-# Solomon Lucas-Thornton Portfolio
+# Solomon Lucas Portfolio
 
 Professional software engineering portfolio for [soluke22.github.io](https://soluke22.github.io).
 
@@ -11,15 +11,15 @@ Professional software engineering portfolio for [soluke22.github.io](https://sol
 ## Local development
 
 ```bash
-bun install
-bun run dev
+npm install
+npm run dev
 ```
 
 ## GitHub Pages build and preview
 
 ```bash
-bun run build:gh-pages
-bun run preview:gh-pages
+npm run build:gh-pages
+npm run preview:gh-pages
 ```
 
 ## Deployment notes

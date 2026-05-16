@@ -12,25 +12,22 @@ const roles: Role[] = [
   {
     company: "The Walt Disney Company",
     title: "Software Engineer",
-    period: "Jul 2022 — Apr 2026",
+    period: "Jul 2022 - Apr 2026",
     description:
-      "Built and maintained React and TypeScript frontend applications supporting Disney digital experiences, contributing to shared systems, reusable components, and modernization across brand environments.",
+      "Built and maintained frontend features across high-traffic Disney digital products using React, TypeScript/JavaScript, shared components, API integrations, accessibility, and production support.",
     bullets: [
-      "Advanced TypeScript migration and shared component modernization across 2 production repositories supporting Disney-owned brands, including ESPN.",
-      "Helped establish a shared component repository for reusable and consistent UI implementation across Disney web experiences.",
-      "Built reusable React and TypeScript UI components from Disney design specifications.",
-      "Implemented 2 pages for an early living-room device platform using React components primarily created for the initiative.",
-      "Translated Figma designs and product requirements into production-ready UI.",
-      "Integrated frontend systems with backend-driven data and shared services.",
-      "Used AI-assisted development and CLI-based workflows while maintaining repository standards.",
+      "Built and maintained frontend features across high-traffic Disney digital products.",
+      "Worked with React, TypeScript/JavaScript, shared components, API integrations, accessibility, and production support.",
+      "Collaborated across product, design, QA, and engineering to ship reliable user-facing experiences.",
+      "Improved frontend quality through reusable UI patterns, testing, review, and maintainable implementation.",
     ],
   },
   {
     company: "Indie Game Academy",
     title: "Gameplay Programmer Lead",
-    period: "Jul 2024 — Oct 2024",
+    period: "Jul 2024 - Oct 2024",
     description:
-      "Led programming for an original indie game title, managing technical scope and delivery across a multidisciplinary team from prototype through publisher presentation.",
+      "Led programming for an original indie game title and delivered systems from prototype through publisher-facing presentation.",
     bullets: [
       "Led programming for Where the Sun Sets, a Unity survivor-style game with day-night progression and AI-driven gameplay systems.",
       "Delivered core gameplay systems within 1 month while coordinating scope and deadlines.",
@@ -40,19 +37,19 @@ const roles: Role[] = [
   {
     company: "The Walt Disney Company",
     title: "Software Engineering Intern",
-    period: "May 2021 — Nov 2021",
+    period: "May 2021 - Nov 2021",
     description:
-      "Embedded in ESPN's live production environment for 7 months, implementing React-based player-facing features within a large-scale consumer digital product and Agile team.",
+      "Contributed to Disney digital web features as part of a production Agile team.",
     bullets: [
-      "Built player-facing ESPN pages using React and frontend web technologies.",
+      "Built player-facing pages using React and frontend web technologies.",
       "Contributed to production web development in an Agile environment.",
-      "Developed ESPN's WNBA Standings Page for a live production sports platform.",
+      "Delivered user-facing UI features for live digital products.",
     ],
   },
   {
     company: "JP Morgan Chase & Co.",
     title: "Software Engineer Intern",
-    period: "Jan 2020 — Dec 2020",
+    period: "Jan 2020 - Dec 2020",
     bullets: [
       "Built a React-based platform supporting mentorship workflows for incoming refugees.",
     ],

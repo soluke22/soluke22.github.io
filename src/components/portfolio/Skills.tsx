@@ -3,33 +3,29 @@ import { Section } from "./Section";
 const groups = [
   {
     title: "Frontend",
-    items: ["React", "TypeScript", "JavaScript", "Next.js", "HTML", "CSS", "UI Component Architecture", "Production UI Implementation"],
+    items: ["React", "TypeScript", "JavaScript", "Vite", "HTML/CSS", "Tailwind CSS"],
   },
   {
-    title: "Systems",
-    items: ["Shared Components", "Frontend Modernization", "JS-to-TS Migration", "State Management", "Systems Integration"],
+    title: "Systems and API",
+    items: ["GraphQL", "REST/API Integrations", "CI/CD", "Reusable UI Architecture"],
   },
   {
-    title: "Testing",
-    items: ["Jest", "Playwright", "Unit Testing", "Integration Testing"],
+    title: "Quality",
+    items: ["Accessibility", "Testing", "Code Review", "Responsive Design"],
   },
   {
-    title: "Tools",
-    items: ["Git", "Jira", "Figma", "Datadog", "Bash", "Spinnaker"],
+    title: "Creative Tech",
+    items: ["Unity", "C#", "Gameplay Systems", "Narrative/Game Flow Prototyping"],
   },
   {
-    title: "Backend / Cloud",
-    items: ["Node.js", "AWS", "Lambda", "S3", "Docker"],
-  },
-  {
-    title: "Game Development",
-    items: ["Unity", "C#", "Gameplay Systems", "Technical Leadership"],
+    title: "AI Workflow",
+    items: ["AI-Assisted Prototyping", "Prompt Iteration", "Code Review", "Validation", "UX Refinement"],
   },
 ];
 
 export function Skills() {
   return (
-    <Section id="skills" eyebrow="Skills" title="Toolkit.">
+    <Section id="skills" eyebrow="Skills" title="Core strengths and tools.">
       <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
         {groups.map((g) => (
           <div

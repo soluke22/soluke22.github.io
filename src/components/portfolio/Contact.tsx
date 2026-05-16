@@ -28,7 +28,7 @@ export function Contact() {
       id="contact"
       eyebrow="Contact"
       title="Let's talk."
-      description="Open to software engineering roles in frontend systems, product engineering, and game-adjacent technical teams."
+      description="Open to software engineering roles focused on frontend systems, product engineering, and creative technology."
     >
       <div className="grid gap-3 md:grid-cols-2">
         {items.map((i) => {
@@ -60,8 +60,8 @@ export function Contact() {
 
       <footer className="mt-16 border-t border-border/60 pt-8 text-xs text-muted-foreground">
         <div className="flex flex-wrap items-center justify-between gap-3">
-          <p>Copyright {new Date().getFullYear()} Solomon Lucas-Thornton</p>
-          <p className="font-mono">Built with React + TypeScript</p>
+          <p>Copyright {new Date().getFullYear()} Solomon Lucas</p>
+          <p className="font-mono">Built with React + TypeScript + Vite + Tailwind</p>
         </div>
       </footer>
     </Section>

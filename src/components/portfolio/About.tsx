@@ -1,11 +1,11 @@
 import { Section } from "./Section";
 
 const points = [
-  "React and TypeScript production experience across multi-brand digital platforms.",
-  "Shared component systems and reusable UI patterns aligned to design specs.",
-  "Frontend modernization across distributed codebases at Disney and ESPN.",
-  "Responsible AI-assisted and CLI-based development workflows.",
-  "Game development leadership as evidence of ownership, systems thinking, and product judgment.",
+  "Production React and TypeScript experience across Disney digital products.",
+  "Accessible, responsive UI implementation grounded in design and user flow.",
+  "Reusable frontend architecture and component patterns for maintainability.",
+  "Cross-functional delivery with product, design, QA, and engineering.",
+  "AI-assisted iteration with human review, validation, and UX refinement.",
 ];
 
 export function About() {
@@ -13,30 +13,33 @@ export function About() {
     <Section
       id="about"
       eyebrow="About"
-      title="Production-minded engineer with frontend depth and broader systems range."
+      title="Frontend-focused engineer with production experience and product judgment."
     >
       <div className="grid gap-10 md:grid-cols-5">
-        <div className="md:col-span-3 space-y-5 text-base leading-relaxed text-muted-foreground">
+        <div className="space-y-5 text-base leading-relaxed text-muted-foreground md:col-span-3">
           <p>
-            I build React and TypeScript systems that ship to real users. Most of my
-            production work has been at The Walt Disney Company, where I contribute to
-            shared component architecture, TypeScript migrations, and frontend
-            modernization across Disney-owned brands including ESPN.
+            I build recruiter-facing and customer-facing interfaces that are clean,
+            reliable, and ready for production. My core stack is React and TypeScript,
+            with a focus on accessibility, maintainability, and clear UX.
           </p>
           <p>
-            Outside of consumer web platforms, I lead gameplay programming on indie
-            titles. That work pushes me on scope, system design, and shipping under
-            constraint — and it informs how I approach production engineering: own the
-            outcome, respect the codebase, ship the thing.
+            At The Walt Disney Company, I worked on frontend features across large
+            digital products, collaborating closely with design, product, QA, and
+            engineering teams. Alongside that, I lead indie game development work,
+            which reinforces practical leadership, systems thinking, and iterative
+            execution.
           </p>
         </div>
-        <ul className="md:col-span-2 space-y-3 text-sm text-foreground">
+        <ul className="space-y-3 text-sm text-foreground md:col-span-2">
           {points.map((p) => (
             <li
               key={p}
               className="flex gap-3 rounded-md border border-border/60 bg-surface/60 p-3"
             >
-              <span aria-hidden className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
+              <span
+                aria-hidden
+                className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-primary"
+              />
               <span className="text-muted-foreground">{p}</span>
             </li>
           ))}

@@ -2,17 +2,15 @@ import { Award } from "lucide-react";
 import { Section } from "./Section";
 
 const items = [
-  "IGDA Foundation HBCU Scholar",
-  "Best Senior Project, Howard University",
   "Coupa Cares Award",
-  "Indie Game Academy Level 3 Graduate",
-  "Management Leadership for Tomorrow Career Prep Fellow",
-  "TEC Tech Prep Rising Innovator",
+  "IGDA Foundation HBCU Scholar",
+  "Best Senior Project Award",
+  "Senior Athlete of the Year",
 ];
 
 export function Awards() {
   return (
-    <Section id="awards" eyebrow="Awards & Programs" title="Recognition and selective programs.">
+    <Section id="awards" eyebrow="Recognition" title="Awards and recognition.">
       <ul className="grid gap-3 md:grid-cols-2">
         {items.map((item) => (
           <li

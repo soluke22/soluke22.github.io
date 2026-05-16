@@ -11,17 +11,17 @@ import { Contact } from "@/components/portfolio/Contact";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Solomon Lucas-Thornton — Software Engineer" },
+      { title: "Solomon Lucas - Software Engineer" },
       {
         name: "description",
         content:
-          "Software Engineer with 4 years of production experience at The Walt Disney Company, building React and TypeScript systems across ESPN and Disney's multi-brand digital platforms.",
+          "Software Engineer focused on React, TypeScript, accessible interfaces, and production-ready frontend systems. Former Disney engineer with indie game development leadership experience.",
       },
-      { property: "og:title", content: "Solomon Lucas-Thornton — Software Engineer" },
+      { property: "og:title", content: "Solomon Lucas - Software Engineer" },
       {
         property: "og:description",
         content:
-          "React, TypeScript, and frontend systems. Production engineering at Disney and ESPN, plus indie gameplay programming.",
+          "React and TypeScript frontend systems, accessibility, UI/UX judgment, and production discipline from Disney and indie game leadership.",
       },
       { property: "og:type", content: "website" },
     ],
