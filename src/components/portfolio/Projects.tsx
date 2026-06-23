@@ -29,7 +29,9 @@ const projects: Project[] = [
       "Demonstrates the real role of AI in engineering: acceleration plus human review, taste, and validation.",
       "Maintains a clean single-page architecture with accessible anchor navigation and responsive behavior.",
     ],
-    links: [{ label: "GitHub", href: "https://github.com/soluke22/soluke22.github.io", icon: "github" }],
+    links: [
+      { label: "GitHub", href: "https://github.com/soluke22/soluke22.github.io", icon: "github" },
+    ],
   },
   {
     title: "Disney Frontend Systems",
@@ -42,6 +44,39 @@ const projects: Project[] = [
       "Built and maintained frontend features across high-traffic Disney digital products.",
       "Improved frontend quality through reusable UI patterns, testing, review, and maintainable implementation.",
       "Collaborated across product, design, QA, and engineering to ship reliable user-facing experiences.",
+    ],
+  },
+  {
+    title: "SignalSmart",
+    category: "Featured",
+    prominent: true,
+    description:
+      "Accessibility-focused AI safety assistant that helps people evaluate suspicious official-looking messages before they click, pay, or share personal information.",
+    tags: [
+      "React",
+      "TypeScript",
+      "Vite",
+      "Tailwind CSS",
+      "Google Gemini",
+      "Vercel",
+      "Accessibility",
+    ],
+    highlights: [
+      "Built text and screenshot analysis flows that return plain-language Low / Medium / High risk reports.",
+      "Designed for vulnerable users with Spanish support, simple-language mode, high contrast, text scaling, read-aloud support, and locally saved results.",
+      "Moved Gemini analysis behind a Vercel serverless API so the app can use structured AI output while keeping the API key server-side.",
+    ],
+    links: [
+      {
+        label: "Live Demo",
+        href: "https://signal-safe-git-working-branch-soluke22s-projects.vercel.app",
+        icon: "demo",
+      },
+      {
+        label: "Devpost",
+        href: "https://devpost.com/software/signalsafe-xnp51o",
+        icon: "demo",
+      },
     ],
   },
   {
@@ -92,8 +127,7 @@ const projects: Project[] = [
   {
     title: "Child of Ruin",
     category: "Game Development",
-    description:
-      "Ludum Dare project built by a team of 40+ developers and published on itch.io.",
+    description: "Ludum Dare project built by a team of 40+ developers and published on itch.io.",
     tags: ["Unity", "C#", "Movement Systems", "Gameplay", "Ludum Dare"],
     highlights: [
       "Developed the movement mechanics.",
@@ -111,8 +145,7 @@ const projects: Project[] = [
   {
     title: "StartupHU",
     category: "Earlier Work",
-    description:
-      "Hackathon-winning prototype marketplace concept for student entrepreneurs.",
+    description: "Hackathon-winning prototype marketplace concept for student entrepreneurs.",
     tags: ["Flask", "Python", "SQL", "Hackathon"],
     highlights: [
       "Winner: JP Morgan and Chase Challenge.",
@@ -122,8 +155,7 @@ const projects: Project[] = [
   {
     title: "CaloriKat",
     category: "Earlier Work",
-    description:
-      "Hackathon prototype exploring meal recommendations and calorie estimation.",
+    description: "Hackathon prototype exploring meal recommendations and calorie estimation.",
     tags: ["Java", "Android Studio", "HTML/CSS", "Hackathon"],
     highlights: [
       "Winner: 3rd Place and Wayfair AR/VR Challenge.",
@@ -156,8 +188,8 @@ export function Projects() {
     <Section
       id="projects"
       eyebrow="Projects"
-      title="Selected work in production frontend engineering and game development."
-      description="A focused view of recruiter-relevant work: production UI systems, shipping discipline, and technical leadership."
+      title="Selected work in production frontend engineering, AI tools, and game development."
+      description="A focused view of recruiter-relevant work: production UI systems, AI-assisted product thinking, shipping discipline, and technical leadership."
     >
       <div aria-label="Project categories" className="mb-10 flex flex-wrap gap-2">
         {categories.map((c) => {
